@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#464D46</color>
+    <color name="colorAccent">#fff</color>
+    <color name="colorBG">#444844</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <!--<color name="mdtp_accent_color">#fff</color>-->
+    <!--<color name="mdtp_accent_color_dark">#fff</color>-->
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#474C46"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgSR_Status"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:tint="#8F948E"
+                android:src="@drawable/icon_warning" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtSR_Place"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:gravity="right|center"
+                    android:paddingTop="7dp"
+                    android:paddingRight="7dp"
+                    android:text="مکان: خونه"
+                    android:textColor="#8F948E" />
+
+                <TextView
+                    android:id="@+id/txtSR_DateTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:gravity="right|center"
+                    android:paddingRight="7dp"
+                    android:text="تاریخ و ساعت: 1398/13/13 17:18"
+                    android:textColor="#8F948E" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

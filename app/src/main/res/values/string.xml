@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">B.B.S</string>
+    <string name="txtLogo">B.B.S</string>
+    <string name="title_activity_login_bbs">وارد شوید</string>
+
+    <!--urlS-->
+    <string name="registerUrl">http://weblauncher.ir/api/v1/register</string>
+    <string name="loginUrl">http://weblauncher.ir/api/v1/login</string>
+    <string name="getReservs">http://weblauncher.ir/api/v1/getReservs</string>
+    <string name="cancelReserve">http://weblauncher.ir/api/v1/cancelReserve</string>
+    <string name="submitReserve">http://weblauncher.ir/api/v1/reserv</string>
+    <!--<string name="submitReserve">http://192.168.1.2:4040/api/v1/reserv</string>-->
+    <string name="getRangeTime">http://weblauncher.ir/api/v1/rangeTime</string>
+    <string name="getAddresses">http://weblauncher.ir/api/v1/getAddress</string>
+    <string name="editUser">http://weblauncher.ir/api/v1/editUser</string>
+    <string name="changePass">http://weblauncher.ir/api/v1/changePass</string>
+
+
+    <string name="title_activity_main_bbs">MainActivityBBS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">ویرایش اطلاعات کاربری</string>
+    <string name="menu_gallery">لیست رزروها</string>
+    <string name="menu_slideshow">درباره ما</string>
+    <string name="menu_tools">خروج از حساب کاربری</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity__main__bbs">Activity_Main_BBS</string>
+    <string name="username">شماره همراه</string>
+    <string name="pass">رمز عبور</string>
+    <string name="AlertCheckNetAgain">لطفا ارتباط خود با اینترنت را چک نمایید</string>
+
+</resources>

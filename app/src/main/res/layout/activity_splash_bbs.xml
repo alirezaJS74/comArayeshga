@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    android:layoutDirection="rtl"
+    tools:context=".Activity_Splash__BBS">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/logo_drawer" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imgLogo"
+                android:layout_alignBottom="@+id/imgLogo"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/imgLogo"
+                android:gravity="center|right"
+                android:paddingRight="7dp"
+                android:text="رزرو آرایشگاه آنلاین B.B.S"
+                android:textColor="#B4B9B3" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressAcS"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:indeterminateTint="#929692"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:indeterminate="true" />
+
+
+</RelativeLayout>
